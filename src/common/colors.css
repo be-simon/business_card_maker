@@ -1,0 +1,13 @@
+@value makerBlack: black;
+@value makerWhite: white;
+@value makerGrey: #626262;
+@value makerShadow: #363636;
+@value makerColorful: linear-gradient(166deg, rgba(237, 193, 211, 1) 0%,rgba(212, 149, 161, 1) 60%,rgba(162, 63, 63, 1) 100%, rgba(127, 188, 242, 1) 100%);
+@value makerBrown: #362d2d;
+@value makerGreen: #55827a;
+@value makerLightGreen: #afbcb7;
+@value makerCoral: #eba58a;
+@value makerLightYellow: #f2cfaa;
+@value makerRed: #cf4e44;
+@value makerHighlightGreen: #75e08c;
+

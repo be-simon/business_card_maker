@@ -1,0 +1,47 @@
+@value makerWhite from '../../../common/colors.css';
+@value makerGreen from '../../../common/colors.css';
+@value makerCoral from '../../../common/colors.css';
+@value makerBrown from '../../../common/colors.css';
+@value makerHighlightGreen from '../../../common/colors.css';
+@value makerShadow from '../../../common/colors.css';
+
+.login_form {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.form_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+
+input {
+  padding: 0.4rem 0.6rem;
+  margin: 0.4rem 0;
+  border: 0.1rem solid makerBrown;
+  border-radius: 0.2rem;
+}
+
+input:focus {
+  /* border: 0.1rem solid makerCoral; */
+  outline: none;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+
+.submit_btn {
+  color: makerWhite;
+  font-weight: bold;
+  background-color: makerHighlightGreen;
+  border: none;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px makerShadow;
+}

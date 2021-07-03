@@ -1,0 +1,35 @@
+@value makerCoral, makerBrown, makerLightYellow from '../../../common/colors.css';
+
+.provider_list {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0.2rem 0;
+}
+
+.list_item {
+  width: 100%;
+  margin-bottom: 0.4rem;
+}
+
+.button {
+  width: 100%;
+  background-color: transparent;
+  border: 0.15rem solid makerBrown;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  border: 0.15rem solid makerCoral;
+}
+
+img {
+  width: 1.5em;
+  margin-right: 0.4em;
+}

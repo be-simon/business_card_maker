@@ -1,0 +1,11 @@
+@value makerWhite, makerCoral, makerBrown, makerLightYellow from '../../../common/colors.css';
+
+.login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin: auto;
+  padding: 1rem;
+  background-color: makerWhite;
+}
