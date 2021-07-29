@@ -1,0 +1,16 @@
+@value makerGreen from '../../common/colors.css';
+
+.section {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+
+  background-color:thistle;
+}
+
+.title {
+  text-align: center;
+  color: makerGreen;
+  font-weight: bold;
+  font-size: 20px;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './app.module.css';
 import Login from './components/login/login';
-import Maker from './components/maker/maker';
+import Home from './components/home/home';
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
 
 function App({authService}) {
@@ -14,7 +14,7 @@ function App({authService}) {
               <Login authService={authService}/>
             </Route>
             <Route exact path='/home'>
-              <Maker/>
+              <Home/>
             </Route>
           </Switch>
         </BrowserRouter>
