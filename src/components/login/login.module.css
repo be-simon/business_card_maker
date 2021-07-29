@@ -1,4 +1,4 @@
-@value makerWhite, makerCoral, makerBrown, makerLightYellow from '../../../common/colors.css';
+@value makerWhite, makerCoral, makerBrown, makerLightYellow from '../../common/colors.css';
 
 .login {
   width: 100%;

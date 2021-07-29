@@ -1,0 +1,36 @@
+@value makerGreen from '../../common/colors.css';
+@value makerWhite from '../../common/colors.css';
+@value makerShadow from '../../common/colors.css';
+@value makerBlack from '../../common/colors.css';
+
+.header {
+  width: 100%;
+  text-align: center;
+  background-color: makerGreen;
+  padding: 0.8em;
+}
+
+.logo {
+  width: 4em;
+  border-radius: 50%;
+  box-shadow: 0.05rem 0.05rem 0.3rem makerShadow;
+}
+
+.title {
+  margin: 0;
+  color: makerWhite;
+}
+
+.logout {
+  border: none;
+  color: makerWhite;
+  border-radius: 0.6em;
+  background-color: makerBlack;
+  box-shadow: 0.05rem 0.05rem 0.3rem makerShadow;
+  padding: 0.4em;
+}
+
+.logout:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

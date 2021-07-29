@@ -1,4 +1,4 @@
-@value makerCoral, makerBrown, makerLightYellow from '../../../common/colors.css';
+@value makerCoral, makerBrown, makerLightYellow from '../../common/colors.css';
 
 .provider_list {
   width: 100%;

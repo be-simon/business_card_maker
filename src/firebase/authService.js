@@ -14,6 +14,12 @@ class AuthService {
   loginWithEmailAndPassword(email, password) {
     return firebaseApp.auth().signInWithEmailAndPassword(email, password)
   }
+
+  onAuthStateChanged(onUserChanged) {
+    firebaseApp.auth().onAuthStateChanged(user => {
+      onUserChanged(user)
+    })
+  }
 }
 
 export default AuthService;

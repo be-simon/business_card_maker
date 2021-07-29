@@ -1,9 +1,9 @@
-@value makerWhite from '../../../common/colors.css';
-@value makerGreen from '../../../common/colors.css';
-@value makerCoral from '../../../common/colors.css';
-@value makerBrown from '../../../common/colors.css';
-@value makerHighlightGreen from '../../../common/colors.css';
-@value makerShadow from '../../../common/colors.css';
+@value makerWhite from '../../common/colors.css';
+@value makerGreen from '../../common/colors.css';
+@value makerCoral from '../../common/colors.css';
+@value makerBrown from '../../common/colors.css';
+@value makerHighlightGreen from '../../common/colors.css';
+@value makerShadow from '../../common/colors.css';
 
 .login_form {
   width: 100%;
